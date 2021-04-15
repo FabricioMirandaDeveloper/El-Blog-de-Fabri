@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'New Tegomin', serif;
+}
+html {
+    font-size: 62.5%;
+}   
+header {
+    display: grid;
+    grid-template: repeat(2, 5vh) / repeat(5, 20vw);
+    background: #47cfac;
+}
+.inicio-container {
+    display: grid;
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    place-self: center;
+}
+.logos a {
+    text-decoration: none;
+}
+.logo-inicio {
+    width: 150px;
+}
+.logos-container {
+    display: grid;
+    grid-row: 1 / 3 ;
+    grid-column: 3 / 5 ;
+    place-self: center;
+}
+.logos-container a {
+    padding: 5px;
+}
+.logos-container img {
+    width: 24px;
+    height: 24px;
+}
+.sobre-mi {
+    display: grid;
+    grid-row: 1 / 3 ;
+    grid-column: 5 / 6 ;
+    place-self: center;
+    text-align: center;
+    background: #ce1f1f;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.sobre-mi:hover {
+    transform: scale(1.1);
+}
+.sobre-mi a {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.home-main {
+    display: grid;
+    grid-template: repeat(10, 9vh) / repeat(5, 20vw);
+    background-image: url(/assets/img/Cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-titulo {
+    grid-row: 3 / 5;
+    grid-column: 1 / 6;
+    text-align: center;
+    padding: 5px;
+    place-self: center;
+    color: white;
+    font-size: 2.2rem;
+}
+.home-boton {
+    grid-row: 7 / 8;
+    grid-column: 2 / 5;
+    place-self: center;
+
+}
+main button {
+    display: inline;
+    padding: 5px;
+    background: #47cfac;
+    border-radius: 5px;
+}
+main button:hover {
+    background-color: #ce1f1f;
+    transform: scale(1.1);
+}
+main a {
+    display: grid;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
