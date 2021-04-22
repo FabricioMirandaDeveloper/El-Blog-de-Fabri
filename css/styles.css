@@ -62,7 +62,7 @@ header {
 .home-main {
     display: grid;
     grid-template: repeat(10, 9vh) / repeat(5, 20vw);
-    background-image: url(/assets/img/Cover.png);
+    background-image: url(/imgs/tattoo-640.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
