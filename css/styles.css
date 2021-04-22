@@ -12,9 +12,9 @@ html {
 header {
     display: grid;
     grid-template: repeat(1, 10vh) / repeat(5, 20vw);
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .mi-inicio {
     display: grid;
@@ -100,24 +100,23 @@ header {
     font-weight: bolder;
 }
 .home-boton {
-    grid-row: 7 / 8;
+    display: grid;
+    grid-row: 8 / 9;
     grid-column: 2 / 5;
     place-self: center;
-
 }
 main button {
-    display: inline;
     padding: 5px;
-    background: #47cfac;
+    background: #0f0c29;
     border-radius: 5px;
 }
 main button:hover {
-    
+    transform: scale(1.1);
 }
-main a {
-    display: grid;
+main button a {
+    display: inline-flex;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.6rem;
     font-weight: bold;
 }
